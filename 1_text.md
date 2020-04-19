@@ -4,7 +4,7 @@ Music generation is often times a process in which two or more entities interact
 
 Sound synthesisers are commonly understood as musical instruments, but with sound generating devices gaining complexity through technological advancement, they can also gain autonomy in their function as performing entities in the music generation process.
 
-In musical improvisation this process happens while the music is being generated. However in experimental composition techniques, established through the work of composers of musique concrète, a composition is being informed by the material which is used to create it. The feedback to user input of music generation systems can act as such a material and can inform decisions about the composition in a workflow that could be understood as trial-and-error.
+In musical improvisation this process happens while the music is being generated. However in experimental composition techniques, established through the work of composers of *Musique Concrète*, a composition is being informed by the material which is used to create it. The feedback to user input of music generation systems can act as such a material and can inform decisions about the composition in a workflow that could be understood as trial-and-error.
 
 The nature of musical generation through interaction and feedback manifest themselves not only in the workflow with Lavina, but also in the interactions between the individual particles of the flocking system.
 
@@ -26,7 +26,7 @@ To allow for more chaotic behaviour and expand artistic expression the option to
 
 In the tradition of European classical music the creative process starts in the imagination of the composer. The idea is committed to notation and then performed by performers to reach its final auditory form. In the early days of electronic music in Germany, notably in the cologne studios for electronic music, this tradition of idea, notation and performance in this order was preserved. In France however, a new form of composition was being developed. The composers of *Musique Concrète* used recorded sound materials as their starting point, and tried to derive the musical essence of these materials by manipulating them, while being guided by their musical tastes and intuitions. [@brindle_new_1987 S. 108]
 
-Working with partially autonomous sound generating systems can be seen as an extension of this french tradition. The Composer might start with an idea in mind, but the hard to predict audio engine, gives a reaction, that then requires the composer to react accordingly and find a way to adapt their composition based on their intuition and vision.
+Working with partially autonomous sound generating systems can be seen as an extension of this French tradition. The Composer might start with an idea in mind, but the hard to predict audio engine, gives a reaction, that then requires the composer to react accordingly and find a way to adapt their composition based on their intuition and vision.
 
 # Design
 
@@ -42,7 +42,7 @@ For the visualisation the space in which the particles move is rendered in real 
 
 # Composition
 
-An example composition was created to help in developing and testing the tools, as well as to demonstrate them. Reaper was used to create MIDI CC output that controls the input variables of the software. The timeline consists of envelopes which are turned in to MIDI CC messages via the ReaMidiControl plugin. The audio performance is then recorded via *Soundflower* and the visualisation is recorded via a screen recorder in the Java Processing environment.
+An example composition was created to help in developing and testing the tools, as well as to demonstrate them. Reaper was used to create MIDI CC output that controls the input variables of the software. The timeline consists of envelopes which are turned into MIDI CC messages via the ReaMidiControl plugin. The audio performance is then recorded via *Soundflower* and the visualisation is recorded via a screen recorder in the Java Processing environment.
 
 ## Sound Material
 
@@ -65,9 +65,9 @@ The composition starts out with particles all across the room that are suddenly 
 
 # Conclusion
 
-Lavina provides composers with tools to navigate 3D audio compositions in a way, that doesn't directly involve them manipulating sound sources resulting in an intuitive workflow with spatial compositions. The possibilities given by the option to use envelopes to control every aspect of the swarms behaviour and sound are sufficient for individual expression, while retaining the nature of swarm behaviour at the core of every composition created with Lavina.
+Lavina provides composers with tools to navigate 3D audio compositions in a way, that doesn't directly involve them manipulating sound sources, resulting in an intuitive workflow with spatial compositions. The possibilities given by the option to use envelopes to control every aspect of the swarms behaviour and sound are sufficient for individual expression, while retaining the nature of swarm behaviour at the core of every composition created with Lavina.
 
-At this stage, the software is using a manageable amount of computing resources but can not therefore correctly simulate all important aspects of audio spatialisation. This makes differentiation between particles difficult, especially in binaural listening environments.
+At this stage, the software is using a manageable amount of computing resources but therefore cannot correctly simulate all important aspects of audio spatialisation. This makes differentiation between particles difficult, especially in binaural listening environments.
 
 As all processing in Lavina happens in real time, applications which involve real time performance aspects could be explored, thus creating the possibility for improvisational approaches to spatial audio.
 

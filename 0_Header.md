@@ -62,8 +62,8 @@ header-includes: |
 
 \section*{Abstract}
 
-The motion of a flock of birds is a common phenomenon in nature, which can be seen in other organisms such as schools of fish or herds of land animals. A flock can be understood as a particle system which operates under certain rules which result in complex behaviour. 
-One way to model this behaviour in computer sciences is to model the paths of each bird or particle individually. Lavina is a such a model, with the added functionality of sound synthesis for each particle which is then represented in acoustic space. Composers may use Lavina to create a timeline for parameter changes to the flocking behaviour as well as the sound generation to create novel compositions with unexpected outcomes while retaining artistic control over the final performance.
+The motion of a flock of birds is a common phenomenon in nature, which can be seen in other organisms such as schools of fish or herds of land animals. A flock can be understood as a particle system which operates under certain rules that result in complex behaviour. 
+One way to model this behaviour in computer sciences is to model the paths of each bird or particle individually. Lavina is such a model, with the added functionality of sound synthesis for each particle which is then represented in acoustic space. Composers may use Lavina to create a timeline for parameter changes to the flocking behaviour as well as the sound generation to create novel compositions with unexpected outcomes while retaining artistic control over the final performance.
 
 \justifying 
 
