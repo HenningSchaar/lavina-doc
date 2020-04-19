@@ -54,6 +54,8 @@ The sound material for the composition was created by taking pieces of popular m
 
 The pieces that were chosen for granular synthesis editing were:
 
+\newpage
+
 1. *Guillotine* by *Death Grips*
 2. *Daydreaming* by *Radiohead*
 3. *Nathalie Neil* by Swans
