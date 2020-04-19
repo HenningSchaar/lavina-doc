@@ -38,7 +38,7 @@ The sound parameters and flocking behaviour variables can be real time adjusted,
 
 ## Animation
 
-
+For the visualisation the space in which the particles move is rendered in real time. The particles are represented by spheres, moving through the outline of a cubical room while the middle of this room represents the listening position. The spheres are coloured based on MIDI CC input by the composer. Thereby the composer can choose colours based on their understanding of the musical material with which the software is fed.
 
 # Composition
 
@@ -61,11 +61,15 @@ These pieces were used because popular music in particular has become an inescap
 
 ## Timeline
 
-
+The composition starts out with particles all across the room that are suddenly appearing and disappearing in a flashing manner. The particle amount increases while they are staying for longer and are moving through space faster. The cohesion of the particles increases and they start to form tighter flocks, which start to move toward the listener. Cohesion is then decreased and the randomisation of movement is increased while the sound they create is becoming less dissonant until they are finally evenly dispursed throughout the virtual room. The particles then proceed to slow their movement and to align to ever tighter flocks, while the audio is faded out to silence. 
 
 # Conclusion
 
+Lavina provides composers with tools to navigate 3D audio compositions in a way, that doesn't directly involve them manipulating sound sources resulting in an intuitive workflow with spatial compositions. The possibilities given by the option to use envelopes to control every aspect of the swarms behaviour and sound are sufficient for individual expression, while retaining the nature of swarm behaviour at the core of every composition created with Lavina.
 
+At this stage, the software is using a manageable amount of computing resources but can not therefore correctly simulate all important aspects of audio spatialisation. This makes differentiation between particles difficult, especially in binaural listening environments.
+
+As all processing in Lavina happens in real time, applications which involve real time performance aspects could be explored, thus creating the possibility for improvisational approaches to spatial audio.
 
 # References
 
