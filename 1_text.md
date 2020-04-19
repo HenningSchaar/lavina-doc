@@ -38,11 +38,15 @@ The sound parameters and flocking behaviour variables can be real time adjusted,
 
 ## Animation
 
-For the visualisation the space in which the particles move is rendered in real time. The particles are represented by spheres, moving through the outline of a cubical room while the middle of this room represents the listening position. The spheres are coloured based on MIDI CC input by the composer. Thereby the composer can choose colours based on their understanding of the musical material with which the software is fed.
+For the visualisation the space in which the particles move is rendered in real time. The particles are represented by spheres, moving through a cubical room while the middle of this room represents the listening position. The spheres are coloured based on MIDI CC input by the composer. Thereby the composer can choose colours based on their understanding of the musical material with which the software is fed.
+
+![Visualisation of the swarm with black sphere in the center representing the listening position](Graphics/particles.jpeg)
 
 # Composition
 
 An example composition was created to help in developing and testing the tools, as well as to demonstrate them. Reaper was used to create MIDI CC output that controls the input variables of the software. The timeline consists of envelopes which are turned into MIDI CC messages via the ReaMidiControl plugin. The audio performance is then recorded via *Soundflower* and the visualisation is recorded via a screen recorder in the Java Processing environment.
+
+![Automation envelopes in Reaper for the example composition](Graphics/automation.jpeg)
 
 ## Sound Material
 

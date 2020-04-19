@@ -21,7 +21,7 @@ header-includes: |
  \usepackage[baskerville,vvarbb]{newtxmath}
  \usepackage[cal=boondoxo]{mathalfa}
  \usepackage{blindtext}
- \usepackage[ngerman]{babel}
+ \usepackage[english]{babel}
  \usepackage{ragged2e}
  \usepackage{tocloft}
  \usepackage[utf8]{inputenc}
