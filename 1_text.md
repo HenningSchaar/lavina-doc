@@ -57,7 +57,6 @@ The pieces that were chosen for granular synthesis editing were:
 1. *Guillotine* by *Death Grips*
 2. *Daydreaming* by *Radiohead*
 3. *Nathalie Neil* by Swans
-4. *Ocean Song* by *Daughters*
 
 The pieces were chosen based on their sonic characteristics of complexity of texture, musical consonance/dissonance and their timbre.
 
@@ -65,7 +64,7 @@ These pieces were used because popular music in particular has become an inescap
 
 ## Timeline
 
-The composition starts out with particles all across the room that are suddenly appearing and disappearing in a flashing manner. The particle amount increases while they are staying for longer and are moving through space faster. The cohesion of the particles increases and they start to form tighter flocks, which start to move toward the listener. Cohesion is then decreased and the randomisation of movement is increased until they are finally evenly dispursed throughout the virtual room. The particles then proceed to slow their movement and to align to ever tighter flocks while the sound they create is becoming less dissonant. Finally the audio is faded out to silence. 
+The composition starts out with particles all across the room that are suddenly appearing and disappearing in a flashing manner. The particle amount increases while they are staying for longer and are moving through space faster. The cohesion of the particles increases and they start to form tighter flocks, which start to move toward the listener. Cohesion is then decreased and the randomisation of movement is increased until they are finally evenly dispersed throughout the virtual room. The particles then proceed to slow their movement and to align to ever tighter flocks while the sound they create is becoming less dissonant. Finally the audio is faded out to silence. 
 
 # Conclusion
 
