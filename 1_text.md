@@ -22,10 +22,6 @@ In the particle system Lavina uses, the finite sized birds are replaced by point
 
 To allow for more chaotic behaviour and expand artistic expression the option to add random acceleration to the particles was added. A greater sense of space is achieved by the addition of the wind parameter, which allows to apply a directed acceleration to all particles.
 
-## Swarm Intelligence
-
-
-
 ## Experimental Composition
 
 In the tradition of European classical music the creative process starts in the imagination of the composer. The idea is committed to notation and then performed by performers to reach its final auditory form. In the early days of electronic music in Germany, notably in the cologne studios for electronic music, this tradition of idea, notation and performance in this order was preserved. In France however, a new form of composition was being developed. The composers of *Musique Concrète* used recorded sound materials as their starting point, and tried to derive the musical essence of these materials by manipulating them, while being guided by their musical tastes and intuitions. [@brindle_new_1987 S. 108]
@@ -36,17 +32,40 @@ Working with partially autonomous sound generating systems can be seen as an ext
 
 ## Sonification
 
+The sonification is based on sound objects which are choosen by the composer. They can be loaded into the software and are played back by each particle. Each particle has randomised adjustable sample offset, pitch randomisation and randomised filter curves to achieve differentiation between particles. The particles experience a simulated doppler-effect, meaning a velocity dependent pitch variation, as well as distance simulation via filter and gain adjustments that are dependant on the distance from the listening sweet spot to the particle.
 
+The sound parameters and flocking behaviour variables can be real time adjusted, via MIDI CC input. This enables the composer to create automation curves which serve as the notation for their composition. This information is then fed to the software to create the sonification and visuals.
 
 ## Animation
 
+
+
 # Composition
+
+An example composition was created to help in developing and testing the tools, as well as to demonstrate them. Reaper was used to create MIDI CC output that controls the input variables of the software. The timeline consists of envelopes which are turned in to MIDI CC messages via the ReaMidiControl plugin. The audio performance is then recorded via *Soundflower* and the visualisation is recorded in the Java Processing environment.
 
 ## Sound Material
 
+The sound material for the composition was created by taking pieces of popular music that were transformed through granular synthesis with the Max/MSP project *DroneBox* [@ohland_jonasohlanddronebox-max_2019]
+
+The pieces that were chosen for granular synthesis editing were:
+
+1. *Guillotine* by *Death Grips*
+2. *Daydreaming* by *Radiohead*
+3. *Nathalie Neil* by Swans
+4. *Ocean Song* by *Daughters*
+
+The pieces were chosen based on their sonic characteristics of complexity of texture, musical consonance/dissonance and their timbre.
+
+These pieces were used because popular music in particular has become an inescapable part of the artificial sonic environment. In this way it shapes the relationship audiences have to devices with sound generating capabilities. One of the objectives of Lavina is the exploration of musical human-machine interfaces on the side of the composer. Therefore a connection to the human-machine interface in the perception of the audience seemed fitting.
+
 ## Timeline
 
+
+
 # Conclusion
+
+
 
 # References
 
